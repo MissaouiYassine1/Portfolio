@@ -75,3 +75,23 @@ export const skills = [
     certificate: "datascience-python-certificate.pdf"
   }
 ];
+
+// CDN icons for each skill
+export const skillIcons = {
+  HTML: 'https://cdn.jsdelivr.net/npm/simple-icons/icons/html5.svg',
+  CSS: 'https://cdn.jsdelivr.net/npm/simple-icons/icons/css3.svg',
+  Flutter: 'https://cdn.jsdelivr.net/npm/simple-icons/icons/flutter.svg',
+  Python: 'https://cdn.jsdelivr.net/npm/simple-icons/icons/python.svg',
+  'Git/GitHub': 'https://cdn.jsdelivr.net/npm/simple-icons/icons/github.svg',
+  PHP: 'https://cdn.jsdelivr.net/npm/simple-icons/icons/php.svg',
+  C: 'https://cdn.jsdelivr.net/npm/simple-icons/icons/c.svg',
+  SEO: 'https://cdn.jsdelivr.net/npm/simple-icons/icons/google.svg',
+  'Prompt Engineering': 'https://cdn.jsdelivr.net/npm/simple-icons/icons/openai.svg',
+  Arduino: 'https://cdn.jsdelivr.net/npm/simple-icons/icons/arduino.svg',
+  OpenCV: 'https://cdn.jsdelivr.net/npm/simple-icons/icons/opencv.svg',
+  'Raspberry Pi + Computer Vision': 'https://cdn.jsdelivr.net/npm/simple-icons/icons/raspberrypi.svg',
+  Kotlin: 'https://cdn.jsdelivr.net/npm/simple-icons/icons/kotlin.svg',
+  SQL: 'https://cdn.jsdelivr.net/npm/simple-icons/icons/mysql.svg',
+  'Data Science with Python': 'https://cdn.jsdelivr.net/npm/simple-icons/icons/python.svg', // fallback
+  Default: 'https://cdn.jsdelivr.net/npm/simple-icons/icons/code.svg'
+};

@@ -1,23 +1,19 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaJava, FaCode } from 'react-icons/fa';
 import styles from './SkillCard.module.scss';
-
-const skillIcons = {
-  HTML: <FaHtml5 color="#e34c26" />,
-  CSS: <FaCss3Alt color="#264de4" />,
-  JavaScript: <FaJs color="#f7df1e" />,
-  React: <FaReact color="#61dbfb" />,
-  Python: <FaPython color="#306998" />,
-  Java: <FaJava color="#f89820" />,
-  Default: <FaCode color="#444" />
-};
+import { skillIcons } from '../../data/skills'; // Importing icons
 
 export default function SkillCard({ skill, level, certificate }) {
-  const icon = skillIcons[skill] || skillIcons.Default;
+  const iconSrc = skillIcons[skill] || skillIcons.Default;
 
   return (
     <div className={styles.skillCard}>
       <div className={styles.header}>
-        <span className={styles.icon}>{icon}</span>
+        <img
+          src={iconSrc}
+          alt={`${skill} icon`}
+          className={styles.icon}
+          width="32"
+          height="32"
+        />
         <h3>{skill}</h3>
       </div>
 

@@ -1,4 +1,3 @@
-// src/components/Header/Header.module.scss
 @use '../../styles/variables' as *;
 @use '../../styles/mixins' as *;
 
@@ -21,7 +20,10 @@
     margin: 0;
   }
 
-  nav {
+  // Nav classique (desktop)
+  .desktopNav {
+    display: flex;
+
     a {
       margin-left: 1.5rem;
       text-decoration: none;
@@ -32,5 +34,59 @@
       }
     }
   }
+
+  // Burger (hidden by default)
+  .burger {
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: $primary-color;
+  }
+
+  // Menu mobile glissant
+  .mobileMenu {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    animation: slideDown 0.3s ease forwards;
+
+    a {
+      margin: 0.5rem 0;
+      text-decoration: none;
+      color: #333;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
 }
 
+// ✅ Animation slide vers le bas
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// ✅ Responsive
+@media (max-width: 768px) {
+  .header {
+    .desktopNav {
+      display: none;
+    }
+
+    .burger {
+      display: block;
+    }
+  }
+}
