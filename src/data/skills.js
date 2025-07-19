@@ -2,79 +2,80 @@ export const skills = [
   {
     skill: "HTML",
     level: "Advanced",
-    certificate: "html-certificate.pdf"
+    certificate: "HTML_certificate.jpg"
   },
   {
     skill: "CSS",
     level: "Advanced",
-    certificate: "css-certificate.pdf"
+    certificate: "Introduction to CSS_certificate.jpg"
   },
   {
     skill: "Flutter",
     level: "Intermediate",
-    certificate: "flutter-certificate.pdf"
+    certificate: "flutter-certificate.pdf" // Aucun fichier correspondant trouvé, on garde l'ancien
   },
   {
     skill: "Python",
     level: "Advanced",
-    certificate: "python-certificate.pdf"
+    certificate: "Python Core_certificate.jpg"
   },
   {
     skill: "Git/GitHub",
     level: "Intermediate",
-    certificate: "git-certificate.pdf"
+    certificate: "git-certificate.pdf" // Aucun fichier correspondant trouvé, on garde l'ancien
   },
   {
     skill: "PHP",
     level: "Intermediate",
-    certificate: "php-certificate.pdf"
+    certificate: "PHP_certificate.jpg"
   },
   {
     skill: "C",
     level: "Advanced",
-    certificate: "c-certificate.pdf"
+    certificate: "c-certificate.pdf" // Aucun fichier correspondant trouvé, on garde l'ancien
   },
   {
     skill: "SEO",
     level: "Intermediate",
-    certificate: "seo-certificate.pdf"
+    certificate: "SEO with AI_certificate.jpg"
   },
   {
     skill: "Prompt Engineering",
     level: "Intermediate",
-    certificate: "prompt-engineering-certificate.pdf"
+    certificate: "Prompt Engineering_certificate.jpg"
   },
   {
     skill: "Arduino",
     level: "Intermediate",
-    certificate: "arduino-certificate.pdf"
+    certificate: "arduino-certificate.pdf" // Aucun fichier correspondant trouvé, on garde l'ancien
   },
   {
     skill: "OpenCV",
     level: "Intermediate",
-    certificate: "opencv-certificate.pdf"
+    certificate: "opencv-certificate.pdf" // Aucun fichier correspondant trouvé, on garde l'ancien
   },
   {
     skill: "Raspberry Pi + Computer Vision",
     level: "Intermediate",
-    certificate: "raspberry-cv-certificate.pdf"
+    certificate: "raspberry-cv-certificate.pdf" // Aucun fichier correspondant trouvé, on garde l'ancien
   },
   {
     skill: "Kotlin",
     level: "Beginner",
-    certificate: "kotlin-certificate.pdf"
+    certificate: "Kotlin_certificate.jpg"
   },
   {
     skill: "SQL",
     level: "Intermediate",
-    certificate: "sql-certificate.pdf"
+    certificate: "SQL_certificate.jpg"
   },
   {
     skill: "Data Science with Python",
     level: "Intermediate",
-    certificate: "datascience-python-certificate.pdf"
+    certificate: "Data Science_certificate.jpg"
   }
 ];
+
 
 // CDN icons for each skill
 export const skillIcons = {
